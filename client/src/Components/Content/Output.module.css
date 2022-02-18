@@ -1,0 +1,56 @@
+.toDoCollection {
+  width: 40%;
+  margin: auto;
+  height: 650px;
+  border-style: solid;
+  border-radius: 1rem;
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+}
+
+.toDoCollection h1 {
+  padding: 10px;
+}
+
+.toDoCollection ul {
+  list-style: none;
+  text-align: left;
+  font-size: 1.5rem;
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.toDoCollection ul li {
+  border-bottom-style: groove;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+.toDoCollection ul li button {
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 70%;
+}
+
+.column2 {
+  flex: 30%;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  padding: 10px 5px 10px 5px;
+  margin-left: 1rem;
+}
+
+.update {
+  background-color: orange;
+  padding: 10px 5px 10px 5px;
+}
